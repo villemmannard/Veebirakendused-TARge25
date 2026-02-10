@@ -1,0 +1,44 @@
+h1{
+    font-size: 40px;
+    font-family: 'Arial', Courier, monospace;
+}
+.submitbtn{
+    background-color: green;
+    color: blanchedalmond;
+}
+.tablehead{
+    background-color: rgb(43, 143, 189);
+    color: rgb(255, 255, 255);
+}
+.tabler1{
+    background-color: rgb(178, 231, 255);
+    color: rgb(255, 255, 255);
+}
+.tabler2{
+    background-color: rgb(133, 200, 231);
+    color: rgb(255, 255, 255);
+}
+li{
+    list-style-image: url(../images/icon-plus.png);
+    line-height: 1.6em;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color :#666666;
+    background-color: #f8f8f8;
+}
+table {
+    border-spacing: 0px;
+}
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+    text-align: left;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
