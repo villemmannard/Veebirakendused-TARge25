@@ -9,6 +9,8 @@ h1{
 .tablehead{
     background-color: rgb(43, 143, 189);
     color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: -1px -1px -1px #ffffff;
 }
 .tabler1{
     background-color: rgb(178, 231, 255);
@@ -41,4 +43,43 @@ th, td {
     border-bottom: 1px solid;
     border-right: 1px solid;
     border-left: 1px solid;
+}
+fieldset{
+    width: 310px;
+    margin-top:  20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+legend{
+    font-style: italic;
+    color :#666666;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;
+}
+input[type="Submit"]{
+    border:  1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+input[type="Submit"]:hover {
+    border: 1px solid #006633;
+    background-color:  #00cc33;
+    color: #ffffff;
+    cursor: pointer;
+}
+.title{
+    float: left;
+    width: 160px;
+    clear: left;
+}
+.submit {
+    width: 310px;
+    text-align: right;
 }
