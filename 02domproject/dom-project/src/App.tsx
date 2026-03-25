@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
@@ -25,13 +23,29 @@ function App() {
   //document.title = "DOM-i pealkiri on muudetut"
 
   //nüüd proovime muuta dokumendi body taustavärvi
-  
+  //document.body.style.backgroundColor = "yellow";
 
+  //Nüüd muudame h1 all olevat teksti, mis on DOM-i element. See on
+  //nüüd veebilehe peamine pealkiri, mis kuvatakse lehe sisu sees
+  //document.querySelector("h1")!.textContent = "DOM-i peamine pealkiri on muudetud!";
+
+  //nüüd sisestame uue muutuja nimega username
+  //see on nagu veebilehe kasutajanimi, mis võib olla tühi või sisaldada
+  //kasutaja nime. See võib olla kasulik, kui soovite näidata erinevat
+  //Teksti sõltuvalt sellest, kas kasutaja on sisse logitud või mitte.
+
+  const username: string = "See ei ole DOM";
+
+  // const domTitle = document.getElementById("dom-title");
+  // if (domTitle) {
+  //   domTitle!.textContent += username === "" ? "Tere külaline!" : username;
+  // }
+  
   return (
     <>
       <section id="center">
-        <h1>
-          Mis on DOM? 
+        <h1 id="dom-title">
+          {username === "" ? "Mis on DOM!": username}
         </h1>
         <p>
           DOM on Document object model.
