@@ -6,7 +6,26 @@ import './App.css'
 
 function App() {
   document.getElementById("");
-  console.log(document);
+  //näitab kõiki DOM-i elemente, mis on lehel olemas. See on nagu 
+  //veebilehe struktuuri kaart, mis näitab kõiki elemente ja 
+  // nende suhteid üksteisega. See võib olla kasulik, kui 
+  //Soovite mõista, kuidas leht on üles ehitatud ja kuidas
+  //erinevad elemendid omavahel seotud on.
+  //console.log(document);
+
+  //dir näitab kõiki DOM-i elemente, mis on lehel olemas, kuid see 
+  //kuvab need hierarhiliselt, näidates iga elemendi lapsi ja vanemaid.
+  //See on kasulik, kui soovite näha, kuidas elemendidon omavahel seotud
+  //ja kuidas nad on paigaldatud lehel. See võib aidata teil mõista,
+  //kuidas leht on üles ehitatud ja kuidas erinevad elemendid omavahel seotud on.
+  //console.dir(document);
+
+  //Nüüd proovime muuta dokumendi title-i, mis on  DOM-i elemenndis
+  //See on nagu veebilehe pealkiri, mis kuvatakse brauseri vahekaardil.
+  //document.title = "DOM-i pealkiri on muudetut"
+
+  //nüüd proovime muuta dokumendi body taustavärvi
+  
 
   return (
     <>
